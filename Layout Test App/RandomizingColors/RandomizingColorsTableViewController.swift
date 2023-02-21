@@ -9,7 +9,7 @@ import UIKit
 
 class RandomizingColorsTableViewController: UITableViewController {
 
-	/// This string is not defined in any storyboard. You can change this string to virtually anything and still have a functioning program.
+	/// This string is not defined in any storyboard/xib. You can change this string to virtually anything and still have a functioning program.
 	private static let randomColorsCellReuseIdentifier = "thisCanBeAnythingReally;it'sNotDefinedInAStoryboardOrWherever"
 
 	override func viewDidLoad() {
@@ -25,7 +25,7 @@ class RandomizingColorsTableViewController: UITableViewController {
 			for: indexPath
 		) as? RandomColorsTableViewCell
 		else { return UITableViewCell() }
-		
+
 		cell.updateColors()
 		return cell
 	}

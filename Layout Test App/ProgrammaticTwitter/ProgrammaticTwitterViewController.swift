@@ -16,7 +16,7 @@ struct ProgrammaticTweet {
 
 class ProgrammaticTwitterViewController: UITableViewController {
 
-	/// This string is not defined in any storyboard. You can change this string to virtually anything and still have a functioning program.
+	/// This string is not defined in any storyboard/xib. You can change this string to virtually anything and still have a functioning program.
 	private static let programmaticTwitterCellReuseIdentifier = "thisCanBeAnythingReally"
 
 	var tweets = [
@@ -60,8 +60,8 @@ class ProgrammaticTwitterViewController: UITableViewController {
 	}
 
 	func goToDetailsViewController(tweet: ProgrammaticTweet) {
-		// Despite ProgrammaticTwitterViewController's UI not being defined by a storyboard,
-		// you can still push or present other view controllers whose UI /are/ defined by storyboards.
+		// Despite ProgrammaticTwitterViewController's UI not being defined by a xib,
+		// you can still push or present other view controllers whose UI are defined by storyboards.
 
 		// "DetailsViewController" is the file name of the storyboard.
 		let storyboard = UIStoryboard(name: "DetailsViewController", bundle: nil)

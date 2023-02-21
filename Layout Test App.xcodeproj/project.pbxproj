@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A049C44629A514A200CF7A81 /* StoryboardTwitterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A049C44529A514A200CF7A81 /* StoryboardTwitterTableViewCell.xib */; };
-		A049C44829A5158600CF7A81 /* StoryboardTwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C44729A5158600CF7A81 /* StoryboardTwitterTableViewCell.swift */; };
+		A049C44629A514A200CF7A81 /* XibTwitterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A049C44529A514A200CF7A81 /* XibTwitterTableViewCell.xib */; };
+		A049C44829A5158600CF7A81 /* XibTwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C44729A5158600CF7A81 /* XibTwitterTableViewCell.swift */; };
 		A049C44B29A5185100CF7A81 /* ProgrammaticTwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C44A29A5185100CF7A81 /* ProgrammaticTwitterViewController.swift */; };
 		A04D339C29A5112400B66E06 /* DetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04D339B29A5112400B66E06 /* DetailsViewController.storyboard */; };
 		A04D33A029A5128B00B66E06 /* RandomizingColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D339F29A5128B00B66E06 /* RandomizingColorsTableViewController.swift */; };
 		A04D33A329A512F500B66E06 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D33A229A512F500B66E06 /* Square.swift */; };
 		A04D33A529A5131F00B66E06 /* RandomColorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D33A429A5131F00B66E06 /* RandomColorsTableViewCell.swift */; };
-		A04D33A829A5144300B66E06 /* StoryboardTwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D33A729A5144300B66E06 /* StoryboardTwitterTableViewController.swift */; };
+		A04D33A829A5144300B66E06 /* XibTwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D33A729A5144300B66E06 /* XibTwitterTableViewController.swift */; };
 		A0B2596D2993422700DBBAA0 /* ProgrammaticTwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2596C2993422700DBBAA0 /* ProgrammaticTwitterTableViewCell.swift */; };
 		A0B2596F2993530100DBBAA0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2596E2993530100DBBAA0 /* DetailsViewController.swift */; };
 		A0CFC4192989F6900074D7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFC4182989F6900074D7AC /* AppDelegate.swift */; };
@@ -25,14 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A049C44529A514A200CF7A81 /* StoryboardTwitterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryboardTwitterTableViewCell.xib; sourceTree = "<group>"; };
-		A049C44729A5158600CF7A81 /* StoryboardTwitterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTwitterTableViewCell.swift; sourceTree = "<group>"; };
+		A049C44529A514A200CF7A81 /* XibTwitterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTwitterTableViewCell.xib; sourceTree = "<group>"; };
+		A049C44729A5158600CF7A81 /* XibTwitterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTwitterTableViewCell.swift; sourceTree = "<group>"; };
 		A049C44A29A5185100CF7A81 /* ProgrammaticTwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticTwitterViewController.swift; sourceTree = "<group>"; };
 		A04D339B29A5112400B66E06 /* DetailsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DetailsViewController.storyboard; sourceTree = "<group>"; };
 		A04D339F29A5128B00B66E06 /* RandomizingColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizingColorsTableViewController.swift; sourceTree = "<group>"; };
 		A04D33A229A512F500B66E06 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		A04D33A429A5131F00B66E06 /* RandomColorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorsTableViewCell.swift; sourceTree = "<group>"; };
-		A04D33A729A5144300B66E06 /* StoryboardTwitterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTwitterTableViewController.swift; sourceTree = "<group>"; };
+		A04D33A729A5144300B66E06 /* XibTwitterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTwitterTableViewController.swift; sourceTree = "<group>"; };
 		A0B2596C2993422700DBBAA0 /* ProgrammaticTwitterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticTwitterTableViewCell.swift; sourceTree = "<group>"; };
 		A0B2596E2993530100DBBAA0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		A0CFC4152989F6900074D7AC /* Layout Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layout Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,14 +96,14 @@
 			path = RandomizingColors;
 			sourceTree = "<group>";
 		};
-		A04D33A629A5141900B66E06 /* StoryboardTwitter */ = {
+		A04D33A629A5141900B66E06 /* XibTwitter */ = {
 			isa = PBXGroup;
 			children = (
-				A04D33A729A5144300B66E06 /* StoryboardTwitterTableViewController.swift */,
-				A049C44529A514A200CF7A81 /* StoryboardTwitterTableViewCell.xib */,
-				A049C44729A5158600CF7A81 /* StoryboardTwitterTableViewCell.swift */,
+				A04D33A729A5144300B66E06 /* XibTwitterTableViewController.swift */,
+				A049C44529A514A200CF7A81 /* XibTwitterTableViewCell.xib */,
+				A049C44729A5158600CF7A81 /* XibTwitterTableViewCell.swift */,
 			);
-			path = StoryboardTwitter;
+			path = XibTwitter;
 			sourceTree = "<group>";
 		};
 		A0CFC40C2989F6900074D7AC = {
@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				A049C44929A5184200CF7A81 /* ProgrammaticTwitter */,
-				A04D33A629A5141900B66E06 /* StoryboardTwitter */,
+				A04D33A629A5141900B66E06 /* XibTwitter */,
 				A04D33A129A512CD00B66E06 /* RandomizingColors */,
 				A04D339E29A5118E00B66E06 /* Base */,
 				A0CFC4262989F6910074D7AC /* Info.plist */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A049C44629A514A200CF7A81 /* StoryboardTwitterTableViewCell.xib in Resources */,
+				A049C44629A514A200CF7A81 /* XibTwitterTableViewCell.xib in Resources */,
 				A04D339C29A5112400B66E06 /* DetailsViewController.storyboard in Resources */,
 				A0CFC4252989F6910074D7AC /* LaunchScreen.storyboard in Resources */,
 				A0CFC4222989F6910074D7AC /* Assets.xcassets in Resources */,
@@ -210,9 +210,9 @@
 				A04D33A529A5131F00B66E06 /* RandomColorsTableViewCell.swift in Sources */,
 				A0CFC4192989F6900074D7AC /* AppDelegate.swift in Sources */,
 				A0B2596D2993422700DBBAA0 /* ProgrammaticTwitterTableViewCell.swift in Sources */,
-				A04D33A829A5144300B66E06 /* StoryboardTwitterTableViewController.swift in Sources */,
+				A04D33A829A5144300B66E06 /* XibTwitterTableViewController.swift in Sources */,
 				A049C44B29A5185100CF7A81 /* ProgrammaticTwitterViewController.swift in Sources */,
-				A049C44829A5158600CF7A81 /* StoryboardTwitterTableViewCell.swift in Sources */,
+				A049C44829A5158600CF7A81 /* XibTwitterTableViewCell.swift in Sources */,
 				A04D33A329A512F500B66E06 /* Square.swift in Sources */,
 				A04D33A029A5128B00B66E06 /* RandomizingColorsTableViewController.swift in Sources */,
 				A0CFC41B2989F6900074D7AC /* SceneDelegate.swift in Sources */,

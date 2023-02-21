@@ -1,5 +1,5 @@
 //
-//  StoryboardTwitterTableViewController.swift
+//  XibTwitterTableViewController.swift
 //  Layout Test App
 //
 //  Created by Luis Ligunas on 2/21/23.
@@ -7,30 +7,30 @@
 
 import UIKit
 
-struct StoryboardTweet {
+struct XibTweet {
 	var text: String
 	var image: UIImage?
 	var isTextHidden: Bool = false
 	var isTweetHorizontal: Bool = false
 }
 
-class StoryboardTwitterTableViewController: UITableViewController {
+class XibTwitterTableViewController: UITableViewController {
 
-	/// This string is defined in `StoryboardTwitterTableViewCell.xib`. They should be the same.
-	private static let storyboardTwitterCellReuseIdentifier = "hotdog"
+	/// This string is defined in `XibTwitterTableViewCell.xib`. They should be the same.
+	private static let xibTwitterCellReuseIdentifier = "hotdog"
 
 	var tweets = [
-		StoryboardTweet(text: "This shows a pencil!", image: UIImage(systemName: "pencil")),
-		StoryboardTweet(text: "This shows trash!", image: UIImage(systemName: "trash.circle")),
-		StoryboardTweet(text: "This shows folder!", image: UIImage(systemName: "folder"))
+		XibTweet(text: "This shows a pencil!", image: UIImage(systemName: "pencil")),
+		XibTweet(text: "This shows trash!", image: UIImage(systemName: "trash.circle")),
+		XibTweet(text: "This shows folder!", image: UIImage(systemName: "folder"))
 	]
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// "StoryboardTwitterTableViewCell" is the name of the xib file.
+		// "XibTwitterTableViewCell" is the name of the xib file.
 		tableView.register(
-			UINib(nibName: "StoryboardTwitterTableViewCell", bundle: nil),
-			forCellReuseIdentifier: StoryboardTwitterTableViewController.storyboardTwitterCellReuseIdentifier
+			UINib(nibName: "XibTwitterTableViewCell", bundle: nil),
+			forCellReuseIdentifier: XibTwitterTableViewController.xibTwitterCellReuseIdentifier
 		)
 
 		tableView.delegate = self
@@ -39,9 +39,9 @@ class StoryboardTwitterTableViewController: UITableViewController {
 
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		guard let cell = tableView.dequeueReusableCell(
-			withIdentifier: StoryboardTwitterTableViewController.storyboardTwitterCellReuseIdentifier,
+			withIdentifier: XibTwitterTableViewController.xibTwitterCellReuseIdentifier,
 			for: indexPath
-		) as? StoryboardTwitterTableViewCell
+		) as? XibTwitterTableViewCell
 		else { return UITableViewCell() }
 
 		let tweet = tweets[indexPath.row]
