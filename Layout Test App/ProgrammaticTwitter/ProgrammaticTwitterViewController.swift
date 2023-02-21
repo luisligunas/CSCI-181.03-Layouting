@@ -55,7 +55,6 @@ class ProgrammaticTwitterViewController: UITableViewController {
 		tableView.deselectRow(at: indexPath, animated: true)
 
 		let tweet = tweets[indexPath.row]
-		tweets[indexPath.row].isTextHidden.toggle()
 		goToDetailsViewController(tweet: tweet)
 	}
 
